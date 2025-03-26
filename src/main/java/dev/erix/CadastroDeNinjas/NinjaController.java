@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping
-public class Controller {
+public class NinjaController {
 
     //GET PARA "PEGAR" AS INFORMAÇÕES
     @GetMapping("/boasVindas")// isso faz: "localhost:8080/boasVindas"
